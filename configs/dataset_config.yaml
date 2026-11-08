@@ -1,0 +1,32 @@
+# Dataset Configuration for MIMIC-IV & eICU Matched Cohorts
+datasets:
+  primary:
+    name: "MIMIC-IV-Waveform-Matched"
+    mimic_clinical_version: "2.2"
+    sampling_rate_hz: 125
+    signals: ["ABP", "PLETH"]
+    drugs: ["Norepinephrine", "Phenylephrine", "Vasopressin"]
+    min_continuous_duration_hours: 6.0
+    split_ratio:
+      train: 0.70
+      val: 0.15
+      test: 0.15
+    cv_folds: 5
+    stratification_key: "subject_id"
+
+  external_validation:
+    name: "eICU-Collaborative-Research-Database"
+    target_evaluation: "zero_shot_transfer"
+    subgroups: ["MICU", "SICU", "CCU", "TSICU"]
+
+preprocessing:
+  resample_rate_hz: 125
+  butterworth:
+    low_cutoff_hz: 0.5
+    high_cutoff_hz: 15.0
+    order: 4
+  notch_frequency_hz: 60.0
+  outlier_clamping:
+    abp_min_mmhg: 20.0
+    abp_max_mmhg: 260.0
+    max_derivative_mmhg_per_sec: 250.0

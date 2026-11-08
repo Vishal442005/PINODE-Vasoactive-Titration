@@ -1,0 +1,46 @@
+# Model Configuration: PINODE-Vaso (Updated v2.0)
+model:
+  name: "PINODE_Vaso"
+  version: "2.0.0"
+
+waveform_encoder:
+  input_channels: 2          # ABP and PPG
+  sampling_rate_hz: 125
+  window_seconds: 30         # 3750 time samples
+  conv_channels: [16, 32, 64]
+  kernel_sizes: [7, 5, 3]
+  se_reduction: 8
+  latent_dim: 32             # z_vasc dimension
+  dropout: 0.15
+
+signal_quality_index:
+  min_sqi_threshold: 0.65    # Minimum SQI to accept autonomous control
+  abp_valid_range: [20.0, 260.0]
+  ppg_valid_range: [0.0, 5.0]
+  max_flush_derivative: 250.0 # mmHg/s
+
+pk_pd:
+  drug: "norepinephrine"
+  half_life_minutes: 2.5
+  central_volume_vd: 0.20    # L/kg (standard central distribution volume)
+  default_kel: 0.277         # ln(2) / 2.5 min = 0.277 min^-1
+  default_ke0: 0.350         # effect compartment rate constant min^-1
+  emax_bounds: [10.0, 80.0]  # maximum drug effect (mmHg)
+  ec50_bounds: [0.05, 1.20]  # half-maximal effect concentration (ug/L)
+  gamma_bounds: [0.8, 3.5]   # Hill steepness coefficient
+
+global_sensitivity_analysis:
+  method: "sobol"            # Sobol variance-based decomposition
+  sample_size: 512
+  parameters_to_analyze: ["Vd", "kel", "ke0", "Emax", "EC50", "gamma", "lambda_baro"]
+
+neural_ode:
+  solver: "dopri5"           # Adaptive Dormand-Prince
+  adjoint: true              # O(1) memory adjoint sensitivity method
+  rtol: 1e-4
+  atol: 1e-5
+  hidden_dim: 64
+  num_layers: 3
+  activation: "silu"         # Swish
+  mc_dropout_samples: 20
+  dropout_rate: 0.20

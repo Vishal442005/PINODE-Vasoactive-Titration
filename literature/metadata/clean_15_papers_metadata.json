@@ -1,0 +1,188 @@
+{
+  "CBM": [
+    {
+      "venue": "CBM",
+      "index": 1,
+      "filename": "CBM_01_2023_Schr\u00f6dinger_spectrum_based_continuous_cuff_le.pdf",
+      "file_size_mb": 13.68,
+      "title": "Schr\u00f6dinger spectrum based continuous cuff-less blood pressure estimation using clinically relevant features from PPG signal and its second derivative",
+      "year": 2023,
+      "doi": "https://doi.org/10.1016/j.compbiomed.2023.107558",
+      "openalex_id": "https://openalex.org/W4387336582",
+      "download_url": "https://arxiv.org/pdf/2301.08439",
+      "citations": 21
+    },
+    {
+      "venue": "CBM",
+      "index": 2,
+      "filename": "CBM_02_2020_A_machine_learning_approach_to_predicting_hyp.pdf",
+      "file_size_mb": 0.34,
+      "title": "A machine-learning approach to predicting hypotensive events in ICU settings",
+      "year": 2020,
+      "doi": "https://doi.org/10.1016/j.compbiomed.2020.103626",
+      "openalex_id": "https://openalex.org/W3001510949",
+      "download_url": "https://www.biorxiv.org/content/biorxiv/early/2019/10/07/794768.full.pdf",
+      "citations": 37
+    },
+    {
+      "venue": "CBM",
+      "index": 3,
+      "filename": "CBM_03_2025_Enhancing_clinical_decision_support_with_phys.pdf",
+      "file_size_mb": 2.59,
+      "title": "Enhancing clinical decision support with physiological waveforms \u2014 A multimodal benchmark in emergency care",
+      "year": 2025,
+      "doi": "https://doi.org/10.1016/j.compbiomed.2025.110196",
+      "openalex_id": "https://openalex.org/W4409978917",
+      "download_url": "https://arxiv.org/pdf/2407.17856",
+      "citations": 27
+    },
+    {
+      "venue": "CBM",
+      "index": 4,
+      "filename": "CBM_04_2025_Bayesian_parameter_inference_and_uncertainty_.pdf",
+      "file_size_mb": 1.9,
+      "title": "Bayesian parameter inference and uncertainty-informed sensitivity analysis in a 0D cardiovascular model for intraoperative hypotension",
+      "year": 2025,
+      "doi": "https://doi.org/10.1016/j.compbiomed.2025.111371",
+      "openalex_id": "https://openalex.org/W4417152864",
+      "download_url": "https://arxiv.org/pdf/2509.14354",
+      "citations": 1
+    },
+    {
+      "venue": "CBM",
+      "index": 5,
+      "filename": "CBM_05_2021_Predicting_fluid_response_the_heart_of_hemody.pdf",
+      "file_size_mb": 4.45,
+      "title": "Predicting fluid-response, the heart of hemodynamic management: A model-based solution",
+      "year": 2021,
+      "doi": "https://doi.org/10.1016/j.compbiomed.2021.104950",
+      "openalex_id": "https://openalex.org/W3206134889",
+      "download_url": "https://orbi.uliege.be/bitstream/2268/309464/1/Predicting%20Fluid%20Responsiveness%20-%20PRINT.pdf",
+      "citations": 2
+    }
+  ],
+  "BSPC": [
+    {
+      "venue": "BSPC",
+      "index": 1,
+      "filename": "BSPC_01_2020_A_review_of_machine_learning_techniques_in_ph.pdf",
+      "file_size_mb": 1.27,
+      "title": "A review of machine learning techniques in photoplethysmography for the non-invasive cuff-less measurement of blood pressure",
+      "year": 2020,
+      "doi": "https://doi.org/10.1016/j.bspc.2020.101870",
+      "openalex_id": "https://openalex.org/W3006649679",
+      "download_url": "https://openaccess.city.ac.uk/id/eprint/23810/1/2020%20C.%20El-Hajj%20and%20P.A.%20Kyriacou.%20A%20review%20of%20machine%20learning%20techniques%20in%20...%20Biomedical%20Signal%20Processing%20and%20Control.pdf",
+      "citations": 320
+    },
+    {
+      "venue": "BSPC",
+      "index": 2,
+      "filename": "BSPC_02_2022_Systolic_blood_pressure_estimation_using_ECG_.pdf",
+      "file_size_mb": 1.95,
+      "title": "Systolic blood pressure estimation using ECG and PPG in patients undergoing surgery",
+      "year": 2022,
+      "doi": "https://doi.org/10.1016/j.bspc.2022.104040",
+      "openalex_id": "https://openalex.org/W4293652178",
+      "download_url": "https://arxiv.org/pdf/2112.12853",
+      "citations": 41
+    },
+    {
+      "venue": "BSPC",
+      "index": 3,
+      "filename": "BSPC_03_2022_Comparison_of_pulse_rate_variability_and_morp.pdf",
+      "file_size_mb": 2.11,
+      "title": "Comparison of pulse rate variability and morphological features of photoplethysmograms in estimation of blood pressure",
+      "year": 2022,
+      "doi": "https://doi.org/10.1016/j.bspc.2022.103968",
+      "openalex_id": "https://openalex.org/W4293764555",
+      "download_url": "https://openaccess.city.ac.uk/id/eprint/29120/1/1-s2.0-S1746809422004670-main.pdf",
+      "citations": 22
+    },
+    {
+      "venue": "BSPC",
+      "index": 4,
+      "filename": "BSPC_04_2023_Rapid_extraction_of_respiratory_waveforms_fro.pdf",
+      "file_size_mb": 0.44,
+      "title": "Rapid extraction of respiratory waveforms from photoplethysmography: A deep corr-encoder approach",
+      "year": 2023,
+      "doi": "https://doi.org/10.1016/j.bspc.2023.104992",
+      "openalex_id": "https://openalex.org/W4376602049",
+      "download_url": "https://arxiv.org/pdf/2212.12578",
+      "citations": 15
+    },
+    {
+      "venue": "BSPC",
+      "index": 5,
+      "filename": "BSPC_05_2025_Real_time_classification_of_blood_pressure_ch.pdf",
+      "file_size_mb": 8.12,
+      "title": "Real-time classification of blood pressure changes using photoplethysmography and deep learning",
+      "year": 2025,
+      "doi": "https://doi.org/10.1016/j.bspc.2025.108380",
+      "openalex_id": "https://openalex.org/W4413153096",
+      "download_url": "https://arxiv.org/pdf/2407.03274",
+      "citations": 2
+    }
+  ],
+  "JBHI": [
+    {
+      "venue": "JBHI",
+      "index": 1,
+      "filename": "JBHI_01_2020_Estimation_and_Validation_of_Arterial_Blood_P.pdf",
+      "file_size_mb": 4.3,
+      "title": "Estimation and Validation of Arterial Blood Pressure Using Photoplethysmogram Morphology Features in Conjunction With Pulse Arrival Time in Large Open Databases",
+      "year": 2020,
+      "doi": "https://doi.org/10.1109/jbhi.2020.3009658",
+      "openalex_id": "https://openalex.org/W3043568386",
+      "download_url": "https://ieeexplore.ieee.org/ielx7/6221020/9395648/09142317.pdf",
+      "citations": 61
+    },
+    {
+      "venue": "JBHI",
+      "index": 2,
+      "filename": "JBHI_02_2021_Continuous_PPG_Based_Blood_Pressure_Monitorin.pdf",
+      "file_size_mb": 1.42,
+      "title": "Continuous PPG-Based Blood Pressure Monitoring Using Multi-Linear Regression",
+      "year": 2021,
+      "doi": "https://doi.org/10.1109/jbhi.2021.3128229",
+      "openalex_id": "https://openalex.org/W3096775664",
+      "download_url": "https://arxiv.org/pdf/2011.02231",
+      "citations": 145
+    },
+    {
+      "venue": "JBHI",
+      "index": 3,
+      "filename": "JBHI_03_2021_Multi_Site_Pulse_Transit_Times_Beat_to_Beat_B.pdf",
+      "file_size_mb": 2.32,
+      "title": "Multi-Site Pulse Transit Times, Beat-to-Beat Blood Pressure, and Isovolumic Contraction Time at Rest and Under Stressors",
+      "year": 2021,
+      "doi": "https://doi.org/10.1109/jbhi.2021.3101976",
+      "openalex_id": "https://openalex.org/W3189630557",
+      "download_url": "https://ieeexplore.ieee.org/ielx7/6221020/9703443/09507259.pdf",
+      "citations": 24
+    },
+    {
+      "venue": "JBHI",
+      "index": 4,
+      "filename": "JBHI_04_2023_Cuffless_Blood_Pressure_Measurement_Using_Sma.pdf",
+      "file_size_mb": 3.43,
+      "title": "Cuffless Blood Pressure Measurement Using Smartwatches: A Large-Scale Validation Study",
+      "year": 2023,
+      "doi": "https://doi.org/10.1109/jbhi.2023.3278168",
+      "openalex_id": "https://openalex.org/W4377142751",
+      "download_url": "https://ieeexplore.ieee.org/ielx7/6221020/6363502/10129795.pdf",
+      "citations": 89
+    },
+    {
+      "venue": "JBHI",
+      "index": 5,
+      "filename": "JBHI_05_2022_SleepPPG_Net_A_Deep_Learning_Algorithm_for_Ro.pdf",
+      "file_size_mb": 0.74,
+      "title": "SleepPPG-Net: A Deep Learning Algorithm for Robust Sleep Staging From Continuous Photoplethysmography",
+      "year": 2022,
+      "doi": "https://doi.org/10.1109/jbhi.2022.3225363",
+      "openalex_id": "https://openalex.org/W4221162338",
+      "download_url": "https://arxiv.org/pdf/2202.05735",
+      "citations": 87
+    }
+  ]
+}

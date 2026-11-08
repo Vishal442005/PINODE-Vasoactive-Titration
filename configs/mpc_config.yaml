@@ -1,0 +1,28 @@
+# Closed-Loop Model Predictive Control (MPC) Configuration
+controller:
+  type: "Safe_Conformal_MPC"
+  prediction_horizon_min: 15.0     # Lookahead horizon in minutes
+  control_step_sec: 10.0           # Decision time-step (dt)
+  substeps: 5                      # ODE integration substeps per control step
+
+targets:
+  map_target_mmhg: 68.0            # Clinically recommended target perfusion
+  map_safe_range: [65.0, 75.0]     # Normal perfusion corridor
+  map_critical_hypotension: 55.0   # Severe hypoperfusion floor
+  map_critical_hypertension: 90.0  # Vasoconstrictive injury ceiling
+
+drug_bounds:
+  dose_min: 0.0                    # ug/kg/min
+  dose_max: 1.50                   # ug/kg/min (safe maximum rate)
+  max_slew_rate: 0.05              # max allowed change in ug/kg/min per minute
+  default_basal: 0.08              # fall-back nurse steady-state rate
+
+cost_weights:
+  w_tracking: 1.0                  # (MAP - MAP_target)^2 penalty
+  w_dose_magnitude: 0.05           # Penalty for unnecessarily high dose
+  w_slew_rate: 0.30                # Smoothness penalty (avoids oscillations)
+  w_uncertainty: 0.50              # Epistemic variance penalty
+
+safety_fail_safe:
+  uncertainty_std_threshold: 6.0   # mmHg std across MC dropout samples
+  max_consecutive_violations: 3    # Trigger fallback to clinician policy

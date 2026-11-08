@@ -1,0 +1,22 @@
+# Hardware Configuration (NVIDIA RTX 2050 4GB Laptop Profile)
+hardware:
+  device: "cuda"
+  gpu_name: "NVIDIA GeForce RTX 2050"
+  vram_budget_mb: 3200             # Strict cap to prevent OOM on 4096 MB card
+  use_amp: true                    # Automatic Mixed Precision (torch.cuda.amp)
+  amp_dtype: "float16"
+
+training:
+  batch_size: 16                   # Physical mini-batch size
+  gradient_accumulation_steps: 4   # Effective batch size = 64
+  num_workers: 2                   # DataLoader worker processes
+  pin_memory: true
+  gradient_clip_norm: 1.0
+
+optimization:
+  lr_encoder: 1e-3
+  lr_pinode: 5e-4
+  weight_decay: 1e-4
+  scheduler: "cosine_annealing"
+  min_lr: 1e-6
+  epochs: 40

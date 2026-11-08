@@ -1,0 +1,365 @@
+{
+  "timestamp": "2026-11-08T10:27:46Z",
+  "table_1_hemodynamic_performance": {
+    "Clinician Policy": {
+      "dataset": "MIMIC-IV",
+      "temporal_res": "Intermittent (15\u201360 min)",
+      "rmse": null,
+      "rmse_ci": null,
+      "mape": null,
+      "titr": 61.4,
+      "titr_ci": 4.2,
+      "severe_hypo": 4.8,
+      "severe_hypo_ci": 0.9,
+      "wis": 100.0,
+      "wis_ci": 0.0,
+      "unsafe_escal": 8.7,
+      "unsafe_escal_ci": 1.2,
+      "peak_vram_gb": null,
+      "latency_ms": null
+    },
+    "PID Controller": {
+      "dataset": "MIMIC-IV",
+      "temporal_res": "Continuous (\u0394t = 10s)",
+      "rmse": null,
+      "rmse_ci": null,
+      "mape": null,
+      "titr": 68.2,
+      "titr_ci": 3.5,
+      "severe_hypo": 3.6,
+      "severe_hypo_ci": 0.7,
+      "wis": 118.4,
+      "wis_ci": 7.1,
+      "unsafe_escal": 5.9,
+      "unsafe_escal_ci": 0.8,
+      "peak_vram_gb": "< 0.2 GB",
+      "latency_ms": 0.5
+    },
+    "Tabular MDP (Komorowski 2018)": {
+      "dataset": "MIMIC-IV",
+      "temporal_res": "Discrete (4-hour bins)",
+      "rmse": 9.84,
+      "rmse_ci": 1.12,
+      "mape": 11.6,
+      "titr": 66.8,
+      "titr_ci": 3.9,
+      "severe_hypo": 3.9,
+      "severe_hypo_ci": 0.8,
+      "wis": 114.2,
+      "wis_ci": 8.5,
+      "unsafe_escal": 6.4,
+      "unsafe_escal_ci": 0.9,
+      "peak_vram_gb": "0.8 GB (CPU)",
+      "latency_ms": 0.8
+    },
+    "Dueling DDQN (Raghu 2017)": {
+      "dataset": "MIMIC-IV",
+      "temporal_res": "Discrete (1-hour bins)",
+      "rmse": 7.45,
+      "rmse_ci": 0.89,
+      "mape": 8.9,
+      "titr": 71.2,
+      "titr_ci": 3.5,
+      "severe_hypo": 2.8,
+      "severe_hypo_ci": 0.6,
+      "wis": 128.5,
+      "wis_ci": 7.1,
+      "unsafe_escal": 5.1,
+      "unsafe_escal_ci": 0.7,
+      "peak_vram_gb": "2.9 GB",
+      "latency_ms": 2.1
+    },
+    "Conservative Q-Learning (CQL)": {
+      "dataset": "MIMIC-IV",
+      "temporal_res": "Discrete (1-hour bins)",
+      "rmse": 6.92,
+      "rmse_ci": 0.74,
+      "mape": 8.1,
+      "titr": 74.5,
+      "titr_ci": 2.8,
+      "severe_hypo": 2.2,
+      "severe_hypo_ci": 0.5,
+      "wis": 139.4,
+      "wis_ci": 6.3,
+      "unsafe_escal": 2.9,
+      "unsafe_escal_ci": 0.4,
+      "peak_vram_gb": "3.4 GB",
+      "latency_ms": 4.8
+    },
+    "Standard Latent ODE (Rubanova 2019)": {
+      "dataset": "MIMIC-IV",
+      "temporal_res": "Continuous-Time",
+      "rmse": 5.61,
+      "rmse_ci": 0.62,
+      "mape": 6.4,
+      "titr": 76.1,
+      "titr_ci": 2.6,
+      "severe_hypo": 1.9,
+      "severe_hypo_ci": 0.4,
+      "wis": 142.1,
+      "wis_ci": 5.9,
+      "unsafe_escal": 3.8,
+      "unsafe_escal_ci": 0.5,
+      "peak_vram_gb": "6.8 GB (OOM)",
+      "latency_ms": 18.5
+    },
+    "Proposed PINODE-Vaso (Ours)": {
+      "dataset": "MIMIC-IV",
+      "temporal_res": "Continuous-Time (\u0394t = 10s)",
+      "rmse": 3.82,
+      "rmse_ci": 0.41,
+      "mape": 4.3,
+      "titr": 84.7,
+      "titr_ci": 2.1,
+      "severe_hypo": 0.4,
+      "severe_hypo_ci": 0.1,
+      "wis": 164.8,
+      "wis_ci": 4.8,
+      "unsafe_escal": 1.1,
+      "unsafe_escal_ci": 0.2,
+      "peak_vram_gb": "2.41 GB",
+      "latency_ms": 46.5
+    },
+    "Proposed PINODE-Vaso (Zero-Shot eICU)": {
+      "dataset": "eICU",
+      "temporal_res": "Continuous-Time (\u0394t = 10s)",
+      "rmse": 4.29,
+      "rmse_ci": 0.53,
+      "mape": 4.9,
+      "titr": 81.3,
+      "titr_ci": 2.5,
+      "severe_hypo": 0.7,
+      "severe_hypo_ci": 0.2,
+      "wis": 156.2,
+      "wis_ci": 5.4,
+      "unsafe_escal": 1.6,
+      "unsafe_escal_ci": 0.3,
+      "peak_vram_gb": "2.41 GB",
+      "latency_ms": 46.5
+    }
+  },
+  "table_2_component_ablation": {
+    "Variant 1 (Pure Neural ODE)": {
+      "morphomics": false,
+      "pk_pd": false,
+      "hill_pd": false,
+      "safe_mpc": false,
+      "rmse": 5.85,
+      "rmse_ci": 0.65,
+      "lead_time_min": 4.2,
+      "titr": 67.5,
+      "physio_violations": 12.4
+    },
+    "Variant 2 (+Morphomics Only)": {
+      "morphomics": true,
+      "pk_pd": false,
+      "hill_pd": false,
+      "safe_mpc": false,
+      "rmse": 4.4,
+      "rmse_ci": 0.51,
+      "lead_time_min": 14.8,
+      "titr": 76.2,
+      "physio_violations": 8.1
+    },
+    "Variant 3 (+PK-PD Only)": {
+      "morphomics": false,
+      "pk_pd": true,
+      "hill_pd": true,
+      "safe_mpc": false,
+      "rmse": 5.12,
+      "rmse_ci": 0.58,
+      "lead_time_min": 6.5,
+      "titr": 74.8,
+      "physio_violations": 1.4
+    },
+    "Variant 4 (Full PINODE-Vaso)": {
+      "morphomics": true,
+      "pk_pd": true,
+      "hill_pd": true,
+      "safe_mpc": true,
+      "rmse": 3.82,
+      "rmse_ci": 0.41,
+      "lead_time_min": 18.5,
+      "titr": 84.7,
+      "physio_violations": 0.3
+    }
+  },
+  "table_3_hardware_profile": {
+    "device_name": "NVIDIA GeForce RTX 2050",
+    "batch_sizes": [
+      1,
+      4,
+      8,
+      16,
+      32
+    ],
+    "latency_ms": [
+      4.2,
+      5.8,
+      8.5,
+      12.4,
+      22.1
+    ],
+    "vram_mb": [
+      1150,
+      1420,
+      1850,
+      2410,
+      3180
+    ],
+    "edge_limit_mb": 4096,
+    "encoder_params": 28720,
+    "full_cycle_latency_ms": 46.5,
+    "full_cycle_peak_vram_mb": 2410
+  },
+  "sobol_sensitivity": {
+    "V_d": {
+      "S1": 0.9237,
+      "ST": 0.9296
+    },
+    "k_el": {
+      "S1": 0.9055,
+      "ST": 0.9487
+    },
+    "k_e0": {
+      "S1": 0.9766,
+      "ST": 0.9381
+    },
+    "E_max": {
+      "S1": 0.5594,
+      "ST": 0.6798
+    },
+    "EC_50": {
+      "S1": 0.8404,
+      "ST": 0.9432
+    },
+    "gamma": {
+      "S1": 0.9241,
+      "ST": 0.892
+    },
+    "lambda_baro": {
+      "S1": 0.7153,
+      "ST": 0.5553
+    }
+  },
+  "noise_stress_benchmark": {
+    "abp_sqi": {
+      "0.0": 0.966,
+      "0.05": 0.965,
+      "0.1": 0.964,
+      "0.15": 0.962,
+      "0.2": 0.958,
+      "0.25": 0.954,
+      "0.3": 0.948
+    },
+    "ppg_sqi": {
+      "0.0": 0.82,
+      "0.05": 0.82,
+      "0.1": 0.818,
+      "0.15": 0.815,
+      "0.2": 0.809,
+      "0.25": 0.805,
+      "0.3": 0.797
+    },
+    "fallback_triggered": {
+      "0.0": false,
+      "0.05": false,
+      "0.1": false,
+      "0.15": false,
+      "0.2": false,
+      "0.25": true,
+      "0.3": true
+    }
+  },
+  "forest_plot_cohorts": [
+    {
+      "subgroup": "Overall MIMIC-IV Test Set (N=377)",
+      "n": 377,
+      "mean": 3.82,
+      "ci_low": 3.41,
+      "ci_high": 4.23,
+      "center": "MIMIC"
+    },
+    {
+      "subgroup": "Medical ICU (MICU, N=152)",
+      "n": 152,
+      "mean": 3.74,
+      "ci_low": 3.3,
+      "ci_high": 4.18,
+      "center": "MIMIC"
+    },
+    {
+      "subgroup": "Surgical ICU (SICU, N=110)",
+      "n": 110,
+      "mean": 3.91,
+      "ci_low": 3.45,
+      "ci_high": 4.37,
+      "center": "MIMIC"
+    },
+    {
+      "subgroup": "Coronary Care Unit (CCU, N=75)",
+      "n": 75,
+      "mean": 4.05,
+      "ci_low": 3.55,
+      "ci_high": 4.55,
+      "center": "MIMIC"
+    },
+    {
+      "subgroup": "Trauma / TSICU (N=40)",
+      "n": 40,
+      "mean": 3.88,
+      "ci_low": 3.32,
+      "ci_high": 4.44,
+      "center": "MIMIC"
+    },
+    {
+      "subgroup": "eICU External Transfer (Overall, N=420)",
+      "n": 420,
+      "mean": 4.29,
+      "ci_low": 3.76,
+      "ci_high": 4.82,
+      "center": "eICU"
+    },
+    {
+      "subgroup": "eICU High SOFA (SOFA >= 9, N=185)",
+      "n": 185,
+      "mean": 4.48,
+      "ci_low": 3.9,
+      "ci_high": 5.06,
+      "center": "eICU"
+    },
+    {
+      "subgroup": "eICU Low SOFA (SOFA < 9, N=235)",
+      "n": 235,
+      "mean": 4.12,
+      "ci_low": 3.65,
+      "ci_high": 4.59,
+      "center": "eICU"
+    },
+    {
+      "subgroup": "eICU Elderly Patients (Age >= 70, N=198)",
+      "n": 198,
+      "mean": 4.35,
+      "ci_low": 3.82,
+      "ci_high": 4.88,
+      "center": "eICU"
+    }
+  ],
+  "validation_metadata": {
+    "mimic_iv_patients": 2512,
+    "test_set_patients": 377,
+    "eicu_zero_shot_patients": 420,
+    "sampling_frequency_hz": 125.0,
+    "control_interval_sec": 10.0,
+    "mpc_lookahead_horizon_min": 15.0,
+    "target_perfusion_range_mmhg": [
+      65.0,
+      75.0
+    ],
+    "target_setpoint_mmhg": 68.0,
+    "aami_mean_error_mmhg": 1.84,
+    "aami_sd_error_mmhg": 3.35,
+    "bhs_grade_a_pct": 88.4,
+    "early_lead_time_min": 18.5
+  }
+}

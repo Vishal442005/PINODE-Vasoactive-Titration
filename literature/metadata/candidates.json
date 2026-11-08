@@ -1,0 +1,1121 @@
+{
+  "CBM": [
+    {
+      "id": "https://openalex.org/W7168731756",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2026.111861",
+      "title": "Non-invasive arterial blood pressure waveform generation in critically ill patients: A sensor-based deep learning approach",
+      "year": 2026,
+      "citations": 3,
+      "pdf_urls": [
+        [
+          "medRxiv",
+          "https://www.medrxiv.org/content/medrxiv/early/2026/04/29/2026.04.28.26351954.full.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4389410170",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2023.107813",
+      "title": "Peripheral artery disease diagnosis based on deep learning-enabled analysis of non-invasive arterial pulse waveforms",
+      "year": 2023,
+      "citations": 23,
+      "pdf_urls": [
+        [
+          "PubMed Central",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10872461/pdf/nihms-1953408.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3170638754",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2021.104545",
+      "title": "Aortic pressure waveform reconstruction using a multi-channel Newton blind system identification algorithm",
+      "year": 2021,
+      "citations": 5,
+      "pdf_urls": [
+        [
+          "Queen Mary Research Online (Queen Mary University of London)",
+          "https://qmro.qmul.ac.uk/xmlui/bitstream/123456789/76072/2/Greenwald%20Aortic%20pressure%20waveform%20reconstruction%20using%20a%20multi-channel%20Newton%20blind%20system%20identification%20algorithm%202021%20Accepted.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4224005569",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2022.105528",
+      "title": "A strategy to personalize a 1D pulse wave propagation model for estimating subject-specific central aortic pressure waveform",
+      "year": 2022,
+      "citations": 10,
+      "pdf_urls": [
+        [
+          "Computers in Biology and Medicine",
+          "https://www.sciencedirect.com/science/article/pii/S0010482522003201"
+        ],
+        [
+          "TU/e Research Portal",
+          "https://research.tue.nl/files/204405429/1_s2.0_S0010482522003201_main.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3208468338",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2021.104970",
+      "title": "Causal relationship between slow waves of arterial, intracranial pressures and blood velocity in brain",
+      "year": 2021,
+      "citations": 19,
+      "pdf_urls": [
+        [
+          "Computers in Biology and Medicine",
+          "https://www.sciencedirect.com/science/article/pii/S0010482521007642/pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4406090298",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2024.109644",
+      "title": "Physics-constrained coupled neural differential equations for one dimensional blood flow modeling",
+      "year": 2025,
+      "citations": 12,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2411.05631"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4409978917",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2025.110196",
+      "title": "Enhancing clinical decision support with physiological waveforms \u2014 A multimodal benchmark in emergency care",
+      "year": 2025,
+      "citations": 27,
+      "pdf_urls": [
+        [
+          "Computers in Biology and Medicine",
+          "https://www.sciencedirect.com/science/article/pii/S0010482525005475/pdf"
+        ],
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2407.17856"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4387336582",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2023.107558",
+      "title": "Schr\u00f6dinger spectrum based continuous cuff-less blood pressure estimation using clinically relevant features from PPG signal and its second derivative",
+      "year": 2023,
+      "citations": 21,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2301.08439"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4306959008",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2022.106224",
+      "title": "Classification and regression of stenosis using an in-vitro pulse wave data set: Dependence on heart rate, waveform and location",
+      "year": 2022,
+      "citations": 3,
+      "pdf_urls": [
+        [
+          "Computers in Biology and Medicine",
+          "https://www.sciencedirect.com/science/article/pii/S0010482522009325/pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4398202618",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2024.108627",
+      "title": "Machine learning of ECG waveforms and cardiac magnetic resonance for response and survival after cardiac resynchronization therapy",
+      "year": 2024,
+      "citations": 10,
+      "pdf_urls": [
+        [
+          "PubMed Central",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11265973/pdf/nihms-1996587.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3149214755",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2021.104566",
+      "title": "Integrating multi-fidelity blood flow data with reduced-order data assimilation",
+      "year": 2021,
+      "citations": 41,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2104.01971"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3133729842",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2021.104882",
+      "title": "Fluid\u2010structure interaction: Insights into biomechanical implications of endograft after thoracic endovascular aortic repair",
+      "year": 2021,
+      "citations": 37,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2103.02446"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3001510949",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2020.103626",
+      "title": "A machine-learning approach to predicting hypotensive events in ICU settings",
+      "year": 2020,
+      "citations": 37,
+      "pdf_urls": [
+        [
+          "bioRxiv (Cold Spring Harbor Laboratory)",
+          "https://www.biorxiv.org/content/biorxiv/early/2019/10/07/794768.full.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4417152864",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2025.111371",
+      "title": "Bayesian parameter inference and uncertainty-informed sensitivity analysis in a 0D cardiovascular model for intraoperative hypotension",
+      "year": 2025,
+      "citations": 1,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2509.14354"
+        ],
+        [
+          "DiRROS repository (University of Maribor)",
+          "https://dirros.openscience.si/Dokument.php?id=42879&dn="
+        ],
+        [
+          "Repository of the University of Ljubljana (University of Ljubljana)",
+          "https://repozitorij.uni-lj.si/Dokument.php?id=232017&dn="
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3047268902",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2020.103949",
+      "title": "Prediction of respiratory decompensation in Covid-19 patients using machine learning: The READY trial",
+      "year": 2020,
+      "citations": 151,
+      "pdf_urls": [
+        [
+          "Computers in Biology and Medicine",
+          "https://www.sciencedirect.com/science/article/pii/S0010482520302845/pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4220855125",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2022.105351",
+      "title": "Developing a supervised machine learning model for predicting perioperative acute kidney injury in arthroplasty patients",
+      "year": 2022,
+      "citations": 12,
+      "pdf_urls": [
+        [
+          "Computers in Biology and Medicine",
+          "https://www.sciencedirect.com/science/article/pii/S0010482522001433/pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W7124425392",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2026.111473",
+      "title": "Amplitude symbolic analysis: a tool for the evaluation of the autonomic function complementary to traditional symbolic approach",
+      "year": 2026,
+      "citations": 3,
+      "pdf_urls": [
+        [
+          "Archivio Istituzionale della Ricerca (Universita Degli Studi Di Milano)",
+          "https://air.unimi.it/bitstream/2434/1236619/2/Porta_CBM_2026.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4221105212",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2022.105407",
+      "title": "Heart rate variability for medical decision support systems: A review",
+      "year": 2022,
+      "citations": 91,
+      "pdf_urls": [
+        [
+          "PORTO@Iris",
+          "https://iris.polito.it/bitstream/11583/2974284/2/CIBM-D-21-05693_R3.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4392391191",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2024.108207",
+      "title": "Automatic identification of hypertension and assessment of its secondary effects using artificial intelligence: A systematic review (2013\u20132023)",
+      "year": 2024,
+      "citations": 17,
+      "pdf_urls": [
+        [
+          "PORTO@Iris",
+          "https://iris.polito.it/bitstream/11583/2987047/1/1-s2.0-S0010482524002919-main.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4406447933",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2025.109668",
+      "title": "Quantifying the influence of combined lung and kidney support using a cardiovascular model and sensitivity analysis-informed parameter identification",
+      "year": 2025,
+      "citations": 4,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2407.08871"
+        ],
+        [
+          "RWTH Publications (RWTH Aachen)",
+          "https://publications.rwth-aachen.de/record/1005509/files/1005509.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4415601401",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2025.111218",
+      "title": "Advances in human thermophysiology modelling: Methodological review of a century of developments",
+      "year": 2025,
+      "citations": 9,
+      "pdf_urls": [
+        [
+          "Infoscience (Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne)",
+          "https://infoscience.epfl.ch/bitstreams/f78fb5f4-aea1-4466-a7b6-3c41935be66c/download"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4394004577",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2024.108344",
+      "title": "A fusion architecture to deliver multipurpose mobile health services",
+      "year": 2024,
+      "citations": 12,
+      "pdf_urls": [
+        [
+          "Archivo Digital UPM (Universidad Polit\u00e9cnica de Madrid)",
+          "https://oa.upm.es/84289/1/10207656.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4223434316",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2022.105479",
+      "title": "A machine learning approach for hypertension detection based on photoplethysmography and clinical data",
+      "year": 2022,
+      "citations": 56,
+      "pdf_urls": [
+        [
+          "Computers in Biology and Medicine",
+          "https://www.sciencedirect.com/science/article/pii/S0010482522002712/pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4317930202",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2023.106592",
+      "title": "X-iPPGNet: A novel one stage deep learning architecture based on depthwise separable convolutions for video-based pulse rate estimation",
+      "year": 2023,
+      "citations": 33,
+      "pdf_urls": [
+        [
+          "HAL",
+          "https://hal.science/hal-04144444v1/file/CBM_final_clean.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4416520258",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2025.111319",
+      "title": "Self-supervised autoencoder network for robust heart rate extraction from noisy photoplethysmogram: Applying blind source separation to biosignal analysis",
+      "year": 2025,
+      "citations": 4,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2504.09132"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4413007087",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2025.110803",
+      "title": "Effects of electrocardiographic noise on ultra-short term Heart Rate Variability indices",
+      "year": 2025,
+      "citations": 3,
+      "pdf_urls": [
+        [
+          "Nova Science Publishers (Nova Science Publishers, Inc.)",
+          "https://iris.unipa.it/bitstream/10447/687303/2/2025_Raimondi_ComputBiolMed.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4401939772",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2024.109081",
+      "title": "Unresolved RBCs: An upscaling strategy for the CFD-DEM simulation of blood flow with deformable cells",
+      "year": 2024,
+      "citations": 8,
+      "pdf_urls": [
+        [
+          "University Library Linz repository (Johannes Kepler Universitat Linz)",
+          "https://epub.jku.at/obvulioa/content/titleinfo/13403373/full.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4393282582",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2024.108335",
+      "title": "Respiratory modulation of the heart rate: A potential biomarker of cardiorespiratory function in human",
+      "year": 2024,
+      "citations": 3,
+      "pdf_urls": [
+        [
+          "bioRxiv (Cold Spring Harbor Laboratory)",
+          "https://www.biorxiv.org/content/biorxiv/early/2024/01/24/2024.01.21.576502.full.pdf"
+        ],
+        [
+          "Okinawa Institute of Science and Technology Graduate University (Okinawa Institute of Science and Technology Graduate University)",
+          "https://oist.repo.nii.ac.jp/record/2000967/files/Doya1-s2.0-S0010482524004190-main.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4297839521",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2022.106100",
+      "title": "A review of automated sleep disorder detection",
+      "year": 2022,
+      "citations": 95,
+      "pdf_urls": [
+        [
+          "PORTO@Iris",
+          "https://iris.polito.it/bitstream/11583/2974266/2/CIBM-D-22-02836_R2.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3048688409",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2020.103957",
+      "title": "Automated prediction of sepsis using temporal convolutional network",
+      "year": 2020,
+      "citations": 93,
+      "pdf_urls": [
+        [
+          "PORTO@Iris",
+          "https://iris.polito.it/bitstream/11583/2974415/2/CBM-D-20-01339R2.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3206134889",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2021.104950",
+      "title": "Predicting fluid-response, the heart of hemodynamic management: A model-based solution",
+      "year": 2021,
+      "citations": 2,
+      "pdf_urls": [
+        [
+          "Computers in Biology and Medicine",
+          "https://www.sciencedirect.com/science/article/pii/S0010482521007447"
+        ],
+        [
+          "ORBi (University of Li\u00e8ge)",
+          "https://orbi.uliege.be/bitstream/2268/309464/1/Predicting%20Fluid%20Responsiveness%20-%20PRINT.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W7130841009",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2026.111561",
+      "title": "Computational physiological models for hemodynamic management in critical care: a systematic literature review focusing on model design, credibility and clinical readiness",
+      "year": 2026,
+      "citations": 0,
+      "pdf_urls": [
+        [
+          "EUR Research Repository (Erasmus University Rotterdam)",
+          "https://pure.eur.nl/files/227171008/Computational_physiological_models_for_hemodynamic_management_in_critical_care.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3181090686",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2021.104627",
+      "title": "Preload & Frank-Starling curves, from textbook to bedside: Clinically applicable non-additionally invasive model-based estimation in pigs",
+      "year": 2021,
+      "citations": 4,
+      "pdf_urls": [
+        [
+          "Computers in Biology and Medicine",
+          "https://www.sciencedirect.com/science/article/pii/S0010482521004212"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4308491104",
+      "doi": "https://doi.org/10.1016/j.compbiomed.2022.106235",
+      "title": "Modelling patient specific cardiopulmonary interactions",
+      "year": 2022,
+      "citations": 10,
+      "pdf_urls": [
+        [
+          "ORBi (University of Li\u00e8ge)",
+          "https://orbi.uliege.be/bitstream/2268/335804/1/Novel_CardioPulmonary_Model.pdf"
+        ]
+      ]
+    }
+  ],
+  "BSPC": [
+    {
+      "id": "https://openalex.org/W4283389204",
+      "doi": "https://doi.org/10.1016/j.bspc.2022.103895",
+      "title": "Estimation of blood pressure waveform from facial video using a deep U-shaped network and the wavelet representation of imaging photoplethysmographic signals",
+      "year": 2022,
+      "citations": 27,
+      "pdf_urls": [
+        [
+          "HAL",
+          "https://hal.science/hal-03790758/document"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3195643467",
+      "doi": "https://doi.org/10.1016/j.bspc.2021.103035",
+      "title": "NB-SQI: A novel non-binary signal quality index for continuous blood pressure waveforms",
+      "year": 2021,
+      "citations": 7,
+      "pdf_urls": [
+        [
+          "Biomedical Signal Processing and Control",
+          "https://www.sciencedirect.com/science/article/pii/S1746809421006327/pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4297176686",
+      "doi": "https://doi.org/10.1016/j.bspc.2022.104247",
+      "title": "NABNet: A Nested Attention-guided BiConvLSTM network for a robust prediction of Blood Pressure components from reconstructed Arterial Blood Pressure waveforms using PPG and ECG signals",
+      "year": 2022,
+      "citations": 61,
+      "pdf_urls": [
+        [
+          "Qatar University QSpace (Qatar University)",
+          "http://qspace.qu.edu.qa/bitstream/10576/55855/1/1-s2.0-S1746809422007017-main.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4293764555",
+      "doi": "https://doi.org/10.1016/j.bspc.2022.103968",
+      "title": "Comparison of pulse rate variability and morphological features of photoplethysmograms in estimation of blood pressure",
+      "year": 2022,
+      "citations": 22,
+      "pdf_urls": [
+        [
+          "Biomedical Signal Processing and Control",
+          "https://www.sciencedirect.com/science/article/pii/S1746809422004670/pdf"
+        ],
+        [
+          "City Research Online (City University London)",
+          "https://openaccess.city.ac.uk/id/eprint/29120/1/1-s2.0-S1746809422004670-main.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3171925877",
+      "doi": "https://doi.org/10.1016/j.bspc.2021.102813",
+      "title": "A review of machine learning in hypertension detection and blood pressure estimation based on clinical and physiological data",
+      "year": 2021,
+      "citations": 152,
+      "pdf_urls": [
+        [
+          "Biomedical Signal Processing and Control",
+          "https://www.sciencedirect.com/science/article/pii/S1746809421004109/pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W7169858525",
+      "doi": "https://doi.org/10.1016/j.bspc.2026.111000",
+      "title": "Waveform analysis of central venous pressure in infants after tetralogy of Fallot repair",
+      "year": 2026,
+      "citations": 0,
+      "pdf_urls": [
+        [
+          "Biomedical Signal Processing and Control",
+          "https://www.sciencedirect.com/science/article/pii/S1746809426015545/pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3006649679",
+      "doi": "https://doi.org/10.1016/j.bspc.2020.101870",
+      "title": "A review of machine learning techniques in photoplethysmography for the non-invasive cuff-less measurement of blood pressure",
+      "year": 2020,
+      "citations": 320,
+      "pdf_urls": [
+        [
+          "Biomedical Signal Processing and Control",
+          "https://www.sciencedirect.com/science/article/pii/S1746809420300264/pdf"
+        ],
+        [
+          "City Research Online (City University London)",
+          "https://openaccess.city.ac.uk/id/eprint/23810/1/2020%20C.%20El-Hajj%20and%20P.A.%20Kyriacou.%20A%20review%20of%20machine%20learning%20techniques%20in%20...%20Biomedical%20Signal%20Processing%20and%20Control.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4293652178",
+      "doi": "https://doi.org/10.1016/j.bspc.2022.104040",
+      "title": "Systolic blood pressure estimation using ECG and PPG in patients undergoing surgery",
+      "year": 2022,
+      "citations": 41,
+      "pdf_urls": [
+        [
+          "Biomedical Signal Processing and Control",
+          "https://www.sciencedirect.com/science/article/pii/S1746809422005171/pdf"
+        ],
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2112.12853"
+        ],
+        [
+          "TU/e Research Portal",
+          "https://pure.tue.nl/ws/files/213736507/1_s2.0_S1746809422005171_main.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4413153096",
+      "doi": "https://doi.org/10.1016/j.bspc.2025.108380",
+      "title": "Real-time classification of blood pressure changes using photoplethysmography and deep learning",
+      "year": 2025,
+      "citations": 2,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2407.03274"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4391830510",
+      "doi": "https://doi.org/10.1016/j.bspc.2024.105974",
+      "title": "Parsimonious waveform-derived features consisting of pulse arrival time and heart rate variability predicts the onset of septic shock",
+      "year": 2024,
+      "citations": 8,
+      "pdf_urls": [
+        [
+          "PubMed Central",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10977921/pdf/nihms-1968857.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4210619160",
+      "doi": "https://doi.org/10.1016/j.bspc.2022.103523",
+      "title": "A non-invasive blood pressure prediction method based on pulse wave feature fusion",
+      "year": 2022,
+      "citations": 24,
+      "pdf_urls": [
+        [
+          "Biomedical Signal Processing and Control",
+          "https://www.sciencedirect.com/science/article/pii/S1746809422000453/pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4401567507",
+      "doi": "https://doi.org/10.1016/j.bspc.2024.106728",
+      "title": "Data-based modeling of the Pharmacodynamics for the effect of Propofol and Remifentanil during General Anesthesia",
+      "year": 2024,
+      "citations": 2,
+      "pdf_urls": [
+        [
+          "HAL",
+          "https://hal.science/hal-04672903v1/file/Model_Journal_Paper.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3041092941",
+      "doi": "https://doi.org/10.1016/j.bspc.2020.102031",
+      "title": "Continuous wavelet transform based processing for estimating the power spectrum content of heart rate variability during hemodiafiltration",
+      "year": 2020,
+      "citations": 29,
+      "pdf_urls": [
+        [
+          "Biomedical Signal Processing and Control",
+          "https://www.sciencedirect.com/science/article/pii/S1746809420301877/pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4410630457",
+      "doi": "https://doi.org/10.1016/j.bspc.2025.108069",
+      "title": "A survey of blood oxygen saturation assessment from video",
+      "year": 2025,
+      "citations": 11,
+      "pdf_urls": [
+        [
+          "HAL",
+          "https://hal.univ-lorraine.fr/hal-05082688v1/document"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3110442615",
+      "doi": "https://doi.org/10.1016/j.bspc.2020.102346",
+      "title": "An iterative run-to-run learning model to derive continuous brachial pressure estimates from arterial and venous lines during dialysis treatment",
+      "year": 2020,
+      "citations": 5,
+      "pdf_urls": [
+        [
+          "Insight (University of Cumbria)",
+          "https://insight.cumbria.ac.uk/id/eprint/7088/8/Stewart_AnIterativeRun.pdf"
+        ],
+        [
+          "Repository@Nottingham (University of Nottingham)",
+          "https://nottingham-repository.worktribe.com/preview/5047657/Stewart%20BP%20estimation%20BSPC%202020%20%281%29.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4225514996",
+      "doi": "https://doi.org/10.1016/j.bspc.2022.103714",
+      "title": "Stimulation Method and Individual Health Index Study for Real-Time Cardiovascular and Autonomic Nervous System Reactivity Analysis Using Ppg Signal",
+      "year": 2022,
+      "citations": 11,
+      "pdf_urls": [
+        [
+          "Biomedical Signal Processing and Control",
+          "https://www.sciencedirect.com/science/article/pii/S1746809422002361/pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4320930406",
+      "doi": "https://doi.org/10.1016/j.bspc.2023.104678",
+      "title": "Bioelectrical impedance analysis of thermal-induced cutaneous nociception",
+      "year": 2023,
+      "citations": 11,
+      "pdf_urls": [
+        [
+          "Biomedical Signal Processing and Control",
+          "https://www.sciencedirect.com/science/article/pii/S1746809423001118"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3179218191",
+      "doi": "https://doi.org/10.1016/j.bspc.2021.102910",
+      "title": "Development of suction detection algorithms for a left ventricular assist device from patient data",
+      "year": 2021,
+      "citations": 18,
+      "pdf_urls": [
+        [
+          "Biomedical Signal Processing and Control",
+          "https://www.sciencedirect.com/science/article/pii/S1746809421005073/pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4408595462",
+      "doi": "https://doi.org/10.1016/j.bspc.2025.107854",
+      "title": "A comprehensive survey of imaging-based methods of measuring intracranial pressure",
+      "year": 2025,
+      "citations": 5,
+      "pdf_urls": [
+        [
+          "Murdoch University Research Portal",
+          "https://researchportal.murdoch.edu.au/view/delivery/61MUN_INST/12174768370007891/13174768360007891"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4401798379",
+      "doi": "https://doi.org/10.1016/j.bspc.2024.106759",
+      "title": "Exploring the dynamic relationship: Changes in photoplethysmography features corresponding to intracranial pressure variations",
+      "year": 2024,
+      "citations": 7,
+      "pdf_urls": [
+        [
+          "City Research Online (City University London)",
+          "https://openaccess.city.ac.uk/id/eprint/33553/1/1-s2.0-S1746809424008176-main.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W7168347046",
+      "doi": "https://doi.org/10.1016/j.bspc.2026.110991",
+      "title": "Standardizing photoplethysmography (PPG) for clinical-grade wearable sensing",
+      "year": 2026,
+      "citations": 1,
+      "pdf_urls": [
+        [
+          "City Research Online (City University London)",
+          "https://openaccess.city.ac.uk/id/eprint/38184/1/1-s2.0-S1746809426015454-main.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4399669190",
+      "doi": "https://doi.org/10.1016/j.bspc.2024.106517",
+      "title": "Evaluating the effectiveness of non-invasive intracranial pressure monitoring via near-infrared photoplethysmography using classical machine learning methods",
+      "year": 2024,
+      "citations": 9,
+      "pdf_urls": [
+        [
+          "City Research Online (City University London)",
+          "https://openaccess.city.ac.uk/id/eprint/33134/1/1-s2.0-S1746809424005755-main.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4376602049",
+      "doi": "https://doi.org/10.1016/j.bspc.2023.104992",
+      "title": "Rapid extraction of respiratory waveforms from photoplethysmography: A deep corr-encoder approach",
+      "year": 2023,
+      "citations": 15,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2212.12578"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W7131413028",
+      "doi": "https://doi.org/10.1016/j.bspc.2026.109831",
+      "title": "Machine-learning for photoplethysmography analysis: Benchmarking feature, image, and signal-based approaches",
+      "year": 2026,
+      "citations": 7,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2502.19949"
+        ],
+        [
+          "Research Portal (King's College London)",
+          "https://kclpure.kcl.ac.uk/ws/files/369969353/1-s2.0-S174680942600385X-main.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4381683485",
+      "doi": "https://doi.org/10.1016/j.bspc.2023.105144",
+      "title": "Monitoring chest compressions using finger photoplethysmography in out-of-hospital cardiac arrest",
+      "year": 2023,
+      "citations": 4,
+      "pdf_urls": [
+        [
+          "Communities in ADDI (University of the Basque Country)",
+          "http://addi.ehu.es/bitstream/10810/65407/4/1-s2.0-S1746809423005773-main.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4402191751",
+      "doi": "https://doi.org/10.1016/j.bspc.2024.106788",
+      "title": "A general framework for generative self-supervised learning in non-invasive estimation of physiological parameters using photoplethysmography",
+      "year": 2024,
+      "citations": 12,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2604.22780"
+        ]
+      ]
+    }
+  ],
+  "JBHI": [
+    {
+      "id": "https://openalex.org/W4385064072",
+      "doi": "https://doi.org/10.1109/jbhi.2023.3297927",
+      "title": "Prediction of Return of Spontaneous Circulation in a Pediatric Swine Model of Cardiac Arrest Using Low-Resolution Multimodal Physiological Waveforms",
+      "year": 2023,
+      "citations": 5,
+      "pdf_urls": [
+        [
+          "PubMed Central",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10756325/pdf/nihms-1936120.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3171792647",
+      "doi": "https://doi.org/10.1109/jbhi.2021.3088629",
+      "title": "End-to-End Automatic Morphological Classification of Intracranial Pressure Pulse Waveforms Using Deep Learning",
+      "year": 2021,
+      "citations": 40,
+      "pdf_urls": [
+        [
+          "IEEE Journal of Biomedical and Health Informatics",
+          "https://ieeexplore.ieee.org/ielx7/6221020/9703443/09453152.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W7125823752",
+      "doi": "https://doi.org/10.1109/jbhi.2025.3639315",
+      "title": "MD-ViSCo: A Unified Model for Multi-Directional Vital Sign Waveform Conversion",
+      "year": 2026,
+      "citations": 0,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2506.08357"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3096775664",
+      "doi": "https://doi.org/10.1109/jbhi.2021.3128229",
+      "title": "Continuous PPG-Based Blood Pressure Monitoring Using Multi-Linear Regression",
+      "year": 2021,
+      "citations": 145,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2011.02231"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4377142751",
+      "doi": "https://doi.org/10.1109/jbhi.2023.3278168",
+      "title": "Cuffless Blood Pressure Measurement Using Smartwatches: A Large-Scale Validation Study",
+      "year": 2023,
+      "citations": 89,
+      "pdf_urls": [
+        [
+          "IEEE Journal of Biomedical and Health Informatics",
+          "https://ieeexplore.ieee.org/ielx7/6221020/6363502/10129795.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4386321980",
+      "doi": "https://doi.org/10.1109/jbhi.2023.3310868",
+      "title": "Hybrid Deep Morpho-Temporal Framework for Oscillometric Blood Pressure Measurement",
+      "year": 2023,
+      "citations": 10,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2301.10154"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4382119113",
+      "doi": "https://doi.org/10.1109/jbhi.2023.3289192",
+      "title": "Hypothesis Scoring for Confidence-Aware Blood Pressure Estimation With Particle Filters",
+      "year": 2023,
+      "citations": 6,
+      "pdf_urls": [
+        [
+          "PubMed Central",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10567135/pdf/nihms-1929722.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4400229053",
+      "doi": "https://doi.org/10.1109/jbhi.2024.3422023",
+      "title": "$\\Delta$BP-Net: Monitoring \u201cChanges\u201d in Blood Pressure Using PPG With Self-Contrastive Masking",
+      "year": 2024,
+      "citations": 11,
+      "pdf_urls": [
+        [
+          "PubMed Central",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11969577/pdf/nihms-2040383.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3043568386",
+      "doi": "https://doi.org/10.1109/jbhi.2020.3009658",
+      "title": "Estimation and Validation of Arterial Blood Pressure Using Photoplethysmogram Morphology Features in Conjunction With Pulse Arrival Time in Large Open Databases",
+      "year": 2020,
+      "citations": 61,
+      "pdf_urls": [
+        [
+          "IEEE Journal of Biomedical and Health Informatics",
+          "https://ieeexplore.ieee.org/ielx7/6221020/9395648/09142317.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4392745490",
+      "doi": "https://doi.org/10.1109/jbhi.2024.3377128",
+      "title": "CiGNN: A Causality-Informed and Graph Neural Network Based Framework for Cuffless Continuous Blood Pressure Estimation",
+      "year": 2024,
+      "citations": 23,
+      "pdf_urls": [
+        [
+          "IEEE Journal of Biomedical and Health Informatics",
+          "https://ieeexplore.ieee.org/ielx7/6221020/6363502/10472032.pdf"
+        ],
+        [
+          "PubMed Central",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11100861/pdf/jbhi-ding-3377128.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3189630557",
+      "doi": "https://doi.org/10.1109/jbhi.2021.3101976",
+      "title": "Multi-Site Pulse Transit Times, Beat-to-Beat Blood Pressure, and Isovolumic Contraction Time at Rest and Under Stressors",
+      "year": 2021,
+      "citations": 24,
+      "pdf_urls": [
+        [
+          "IEEE Journal of Biomedical and Health Informatics",
+          "https://ieeexplore.ieee.org/ielx7/6221020/9703443/09507259.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4387129441",
+      "doi": "https://doi.org/10.1109/jbhi.2023.3320585",
+      "title": "Variational Autoencoders for Biomedical Signal Morphology Clustering and Noise Detection",
+      "year": 2023,
+      "citations": 28,
+      "pdf_urls": [
+        [
+          "PubMed Central",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10984704/pdf/nihms-1963084.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4379382294",
+      "doi": "https://doi.org/10.1109/jbhi.2023.3282796",
+      "title": "Age-Related Changes in Blood Volume Pulse Wave at Fingers and Ears",
+      "year": 2023,
+      "citations": 16,
+      "pdf_urls": [
+        [
+          "Pure (Coventry University)",
+          "https://pure.coventry.ac.uk/ws/files/74438281/Post_Print.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W3047004659",
+      "doi": "https://doi.org/10.1109/jbhi.2020.3013811",
+      "title": "Modulation Model of the Photoplethysmography Signal for Vital Sign Extraction",
+      "year": 2020,
+      "citations": 25,
+      "pdf_urls": [
+        [
+          "IEEE Journal of Biomedical and Health Informatics",
+          "https://ieeexplore.ieee.org/ielx7/6221020/9395648/09154523.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4221162338",
+      "doi": "https://doi.org/10.1109/jbhi.2022.3225363",
+      "title": "SleepPPG-Net: A Deep Learning Algorithm for Robust Sleep Staging From Continuous Photoplethysmography",
+      "year": 2022,
+      "citations": 87,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2202.05735"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4391454459",
+      "doi": "https://doi.org/10.1109/jbhi.2024.3360952",
+      "title": "Learning From Alarms: A Robust Learning Approach for Accurate Photoplethysmography-Based Atrial Fibrillation Detection Using Eight Million Samples Labeled With Imprecise Arrhythmia Alarms",
+      "year": 2024,
+      "citations": 12,
+      "pdf_urls": [
+        [
+          "Europe PMC (PubMed Central)",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11270897/pdf/nihms-1991996.pdf"
+        ],
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2211.03333"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4417131192",
+      "doi": "https://doi.org/10.1109/jbhi.2025.3600923",
+      "title": "Toward Noninvasive Assessment of Arterial Stiffness: Regression Modeling From Radial-Tibial Pulse Wave Features",
+      "year": 2025,
+      "citations": 1,
+      "pdf_urls": [
+        [
+          "PORTO@Iris",
+          "https://iris.polito.it/bitstream/11583/3005888/2/Pogliano%20et%20al%20-%20Towards%20Noninvasive%20Assessment%20of%20Arterial%20Stiffness%20-%20jBHI.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4205627884",
+      "doi": "https://doi.org/10.1109/jbhi.2022.3140980",
+      "title": "2021 Index IEEE Journal of Biomedical and Health Informatics Vol. 25",
+      "year": 2021,
+      "citations": 0,
+      "pdf_urls": [
+        [
+          "IEEE Journal of Biomedical and Health Informatics",
+          "https://ieeexplore.ieee.org/ielx7/6221020/9638391/09675002.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4414230120",
+      "doi": "https://doi.org/10.1109/jbhi.2025.3609667",
+      "title": "A Novel Multi-Task Teacher-Student Architecture With Self-Supervised Pretraining for 48-Hour Vasoactive-Inotropic Trend Analysis in Sepsis Mortality Prediction",
+      "year": 2025,
+      "citations": 7,
+      "pdf_urls": [
+        [
+          "arXiv (Cornell University)",
+          "https://arxiv.org/pdf/2502.16834"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4245365934",
+      "doi": "https://doi.org/10.1109/jbhi.2020.3048808",
+      "title": "2020 Index IEEE Journal of Biomedical and Health Informatics Vol. 24",
+      "year": 2020,
+      "citations": 0,
+      "pdf_urls": [
+        [
+          "IEEE Journal of Biomedical and Health Informatics",
+          "https://ieeexplore.ieee.org/ielx7/6221020/9281055/09313843.pdf"
+        ]
+      ]
+    },
+    {
+      "id": "https://openalex.org/W4312219232",
+      "doi": "https://doi.org/10.1109/jbhi.2022.3231501",
+      "title": "2022 Index IEEE Journal of Biomedical and Health Informatics Vol.26",
+      "year": 2022,
+      "citations": 1,
+      "pdf_urls": [
+        [
+          "IEEE Journal of Biomedical and Health Informatics",
+          "https://ieeexplore.ieee.org/ielx7/6221020/9973412/09998462.pdf"
+        ]
+      ]
+    }
+  ]
+}

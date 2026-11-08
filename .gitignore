@@ -1,0 +1,47 @@
+# ==============================================================================
+# STRICT EXCLUSIONS (No Manuscript, LaTeX, or Word files)
+# ==============================================================================
+*.pdf
+*.tex
+*.bib
+*.docx
+*.doc
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex*
+*.fls
+*.fdb_latexmk
+
+# Submission and Paper folders
+submission_CBM/
+submission_CBM
+literature/papers/
+literature/papers
+papers/
+manuscript/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# OS-specific
+.DS_Store
+Thumbs.db

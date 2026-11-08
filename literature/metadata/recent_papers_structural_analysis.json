@@ -1,0 +1,124 @@
+{
+  "BSPC_05_2025_Real_time_classification_of_blood_pressure_ch.pdf": {
+    "pages": 14,
+    "headings": [
+      "TABLE I",
+      "TABLE II",
+      "TABLE III",
+      "TABLE IV",
+      "SBP DBP MBP SBP DBP MBP",
+      "1\r\nC\r\nX\r\nC",
+      "TABLE V",
+      "DIFFERENT INPUT TYPES",
+      "SBP DBP MBP SBP DBP MBP",
+      "TABLE VI",
+      "SBP DBP MBP SBP DBP MBP",
+      "TABLE VII",
+      "INITIAL BP VALUES",
+      "SBP DBP MBP SBP DBP MBP",
+      "APPENDIX I",
+      "REFERENCES"
+    ],
+    "figures": [
+      "Fig. 1. Examples of 10-second PPG signals with corresponding systolic",
+      "Fig. 2. Architectures of the four classification models: (a) multi-layer",
+      "Fig. 3. To manage resource 4 HONG et al.: REAL-TIME BLOOD PRESSURE CHANGES DETECTION FROM THE PHOTOPLETHYSMOGRAM",
+      "Fig. 3. Flow chart of the overall experimental design using the example",
+      "Fig. 4 shows the results for one of the five patients in Test￾II dataset, and Supplementary Material Figs. S2 to S6 show",
+      "Fig. 4. Label detection results from a patient in the Test-II dataset",
+      "Fig. 5. Accuracy of the Encoder model with the PPG-sdPPG-waveform"
+    ],
+    "tables": [],
+    "found_metrics": [
+      "F1",
+      "Precision",
+      "Calibration",
+      "Recall"
+    ],
+    "sample_abstract": "HONG et al.: REAL-TIME BLOOD PRESSURE CHANGES DETECTION FROM THE PHOTOPLETHYSMOGRAM 1\r Using Photoplethysmography to Detect\r Real-time Blood Pressure Changes with a\r Calibration-free Deep Learning Model\r Jingyuan Hong, Manasi Nandi, Weiwei Jin, and Jordi Alastruey\r Abstract— Blood pressure (BP) changes are linked to\r individual health status in both clinical and non-clinical\r settings. This study developed a deep learning model to\r classify systolic (SBP), diastolic (DBP), and mean (MBP) BP\r changes using photoplethysmography (PPG) waveforms.\r Data from the Vital Signs Database (VitalDB) comprising\r 1,005 ICU patients with synchronized PPG and BP record￾ings was used. BP changes were categorized into three\r labels: Spike (increase above a threshold), Stable (change\r within a ± threshold), and Dip (decrease below a thresh￾old). Four time-series classification models were studied:\r multi-layer perceptron, convolutional neural network, resid￾ual network, and Encoder. A subset of 500 patients was\r randomly selected for training and validation, ensuring a\r uniform distribution across BP change labels. Two test\r datasets were compiled: Test-I (n=500) with a uniform\r distribution selectio"
+  },
+  "CBM_03_2025_Enhancing_clinical_decision_support_with_phys.pdf": {
+    "pages": 21,
+    "headings": [
+      "1. Introduction",
+      "2. Methods",
+      "3\nMIMIC-IV\r\nMIMIC-IV-ECG-ICD\r\nMIMIC-IV-ECG",
+      "3. Results",
+      "4. Discussion",
+      "5. Potential implications",
+      "13\nReferences"
+    ],
+    "figures": [
+      "Figure 1: Pipeline outlines the MDS-ED clinical workflow, which involves feature collection encompassing patient",
+      "Figure 1 presents a schematic illustration of the proposed MDS-ED pipeline which task focuses",
+      "Figure 2: Schematic representation summarizing the creation process of the MDS-ED dataset [22] underlying this work.",
+      "Figure 2. A complete description of the MDS-ED"
+    ],
+    "tables": [
+      "Table 1 contains a direct comparison with related works in terms of population, dataset",
+      "Table 1: Direct comparison with related works in terms of dataset size, features, availability, and number of target labels.",
+      "Table 2: Predictive performance (macro AUROC with 95% bootstrap confidence intervals) across all scenarios for",
+      "Table 2 presents the predictive performance of both unimodal and multimodal models across",
+      "Table 3 demonstrates the diagnoses that can be predicted most accurately by the model, which",
+      "Table 4 showcases the deterioration model’s predictive performance across clinical deteriora￾tion, ICU admission, as well as both short and long-term mortality with many AUROC scores",
+      "Table 3: Best-performing individual statements organized according to selected ICD chapters underscoring the breadth of",
+      "Table 4: Detailed breakdown of model performance in the deterioration category."
+    ],
+    "found_metrics": [
+      "Recall",
+      "Precision",
+      "AUROC",
+      "AUPRC"
+    ],
+    "sample_abstract": "Enhancing clinical decision support with physiological waveforms –\r a multimodal benchmark in emergency care\r Juan Miguel Lopez Alcaraza\r , Hjalmar Boumab\r , Nils Strodthoff\r a,∗\r aAI4Health Division, Carl von Ossietzky Universit¨at Oldenburg, Ammerl¨ander Heerstraße\r 114-118, Oldenburg, 26129, Lower Saxony, Germany\r bDepartment of Internal Medicine, Department of Acute Care, and Department of Clinical Pharmacy & Pharmacology,\r University Medical Center Groningen, Hanzeplein 1, Groningen, 9713, Groningen, Netherlands\r Abstract\r Background: AI-driven prediction algorithms have the potential to enhance emergency\r medicine by enabling rapid and accurate decision-making regarding patient status and potential\r deterioration. However, the integration of multimodal data, including raw waveform signals,\r remains underexplored in clinical decision support.\r Methods: We present a dataset and benchmarking protocol designed to advance multimodal\r decision support in emergency care. Our models utilize demographics, biometrics, vital signs,\r laboratory values, and electrocardiogram (ECG) waveforms as inputs to predict both discharge\r diagnoses and patient deterioration.\r Results: The diagnostic "
+  },
+  "CBM_04_2025_Bayesian_parameter_inference_and_uncertainty_.pdf": {
+    "pages": 26,
+    "headings": [
+      "52074 Aachen, Germany",
+      "2\r\nAbstract",
+      "1 Introduction",
+      "2 Materials and methods",
+      "3 Results",
+      "4 Discussion",
+      "5 Conclusion",
+      "17\r\nReferences",
+      "6 Supplements"
+    ],
+    "figures": [
+      "Figure 1. Cardiac function is",
+      "Figure 1: Overview of the cardiovascular lumped parameter model, taken from previous work [46]. Linked changes",
+      "Figure 2: Overview of the different clinical scenarios used for parameter inference with MCMC: (1) Normo and",
+      "Figure 3 shows heatmaps of MAP (top row) and CO (bottom row) for different values of Emaxlv, Rmc, and TBV. The solid",
+      "Figure 3: Mean arterial pressure and cardiac output for different values of the systolic elastance of the left ventricle Emaxlv,",
+      "Figure 4 shows the weighted sum of the total effect ST of each model parameter, as well as MAP (top row) and CO (bottom",
+      "Figure 4: Weighted sum of the total effect ST of each model parameter for MAP (top row) and CO (bottom row). High",
+      "Figure 5 shows the posterior distributions for Emaxlv and Rmc using corner plots for all clinical scenarios. Their relationship",
+      "Figure 5: Corner plots showing posterior distributions of each model parameter for the scenarios 1) Normo, 2)",
+      "Figure 6: Coefficient of variation for Rmc and Emaxlv, depending on a) the number of data points and b) the number of",
+      "Figure 7 shows box plots of the distributions",
+      "Figure 7: Distributions of the total order sensitivity indices ST for each model parameter and output for the Bayesian",
+      "Figure 8 shows the distributions of ST, with solid boxes",
+      "Figure 8: Distributions of the total order sensitivity indices ST for each model parameter and output for the Bayesian",
+      "Figure 3 illustrates the issue of non-uniqueness of deterministic"
+    ],
+    "tables": [
+      "Table 1. Grid sampling was used to generate 343",
+      "Table 1: List of parameters and their ranges used in this study.",
+      "Table 2. A sample size of 𝑁 = 512 was used together with 𝐷 = 3 cardiovascular system",
+      "Table 2: List of parameter perturbations used for the global sensitivity analysis.",
+      "Table 1. These were illustrated using",
+      "Table 1 using Latin hypercube sampling and by evaluating",
+      "Table 3. Corner plots were used to illustrate the parameter distributions for Emaxlv and Rmc for all four scenarios.",
+      "Table 4. From these distributions, 100",
+      "Table 4. For the remaining scenarios, it was assumed that the patient’s blood",
+      "Table 3: Clinical scenarios investigated using parameter inference with MCMC."
+    ],
+    "found_metrics": [
+      "MAPE",
+      "Sensitivity",
+      "Calibration"
+    ],
+    "sample_abstract": "1\r Bayesian Parameter Inference and Uncertainty-Informed Sensitivity Analysis in a 0D Cardiovascular Model for \r Intraoperative Hypotension\r Jan-Niklas Thiela,*\r , Marko Zlicarb\r , Ulrich Steinseifera\r , Borut Kirnc,†\r , Michael Neidlina,†\r Affiliation:\r a) Cardiovascular Engineering, Applied Medical Engineering, Medical Faculty, RWTH Aachen University, Aachen, \r Germany\r b) Clinical Department of Anaesthesiology and Intensive Therapy, University Medical Centre Ljubljana, Ljubljana, \r Slovenia\r c) Institute of Physiology, Medical Faculty, University of Ljubljana, Ljubljana, Slovenia\r † These authors contributed equally to this work.\r * Correspondence:\r Name: Jan-Niklas Thiel\r Address: Institute of Applied Medical Engineering, Forckenbeckstr. 55\r 52074 Aachen, Germany\r Email address: thiel@ame.rwth-aachen.de\r Funding:\r Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) SPP2014 “Towards the Artificial \r Lung” (project number: 447746988) and “Young Investigator Grant” as part of SPP2014.\r Conflict of interest:\r All the authors have nothing to disclose.\r Ethics statement:\r -\r Authors’ contributions:\r Jan-Niklas Thiel: Conceptualization, Data curation, Forma"
+  }
+}
